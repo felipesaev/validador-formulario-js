@@ -40,34 +40,49 @@
 
 				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"  >
 					<span class="label-input100">Email</span>
-					<input class="input100" type="email" name="email" placeholder="Seu Email" id="email">
+					<input class="input100" data-tipo="email"  required type="email" name="email" placeholder="Seu Email" id="email">
 				</div>
 
 				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"  >
 					<span class="label-input100">Senha</span>
-					<input class="input100" type="password" name="password" id="password">
+					<input class="input100" type="password" data-tipo="senha" required minlength="4" name="password" id="password">
 				</div>
 
 				<span class="label-input100">Informaçõe pessoais</span>
 
 				<div class="wrap-input100 validate-input bg1" >
 					<span class="label-input100">Data de nascimento</span>
-					<input class="input100" type="date" data-tipo="datadenascimento" id="datadenascimento">
+					<input class="input100" type="date" data-tipo="datadenascimento" required id="datadenascimento">
 				</div>				
 
 				<div class="wrap-input100 bg1 rs1-wrap-input100">
 					<span class="label-input100">CPF</span>
-					<input class="input100" type="number" name="cpf" placeholder="Seu cpf" id="cpf">
+					<input class="input100" type="number" data-tipo="cpf" name="cpf" id="cpf" required placeholder="Seu cpf" id="cpf">
 				</div>	
 				<div class="wrap-input100 bg1 rs1-wrap-input100">
 					<span class="label-input100">RG</span>
-					<input class="input100" type="number" name="rg" placeholder="Seu rg" id="rg">
+					<input class="input100" type="number" name="rg" data-tipo="rg" id="rg" required placeholder="Seu rg" id="rg">
 				</div>	
 
 				
 				<div class="wrap-input100 bg1 rs1-wrap-input100">
-					<span class="label-input100">Telefone</span>
-					<input class="input100" type="text" name="telefone" placeholder="Seu telefone" id="telefone">
+					<span class="label-input100">CEP</span>
+					<input class="input100" type="number" name="cep" data-tipo="cep" required placeholder="Seu cep" id="cep">
+				</div>	
+				
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Logradouro</span>
+					<input class="input100" type="text" name="logradouro" data-tipo="logradouro" required placeholder="Seu logradouro" id="logradouro">
+				</div>		
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Cidade</span>
+					<input class="input100" type="text" name="cidade" data-tipo="cidade" required placeholder="Sua cidade" id="cidade">
+				</div>		
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Estado</span>
+					<input class="input100" type="text" name="estado" data-tipo="estado" required placeholder="Seu estado" id="estado">
 				</div>		
 
 				
